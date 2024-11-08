@@ -29,7 +29,7 @@ class _SimpleExampleAppState extends State<_SimpleExampleApp> {
 
     // Start the player as soon as the app is displayed.
     WidgetsBinding.instance.addPostFrameCallback((_) async {
-      await player.setSource(AssetSource('bla.mp3'));
+      await player.setSource(AssetSource('assets/jaappppp.mp3'));
       await player.resume();
     });
   }
