@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
           child: Column(
             children: [
               Image.network('https://nuv.ac.in/wp-content/uploads/new-logo.png', width: 400,height: 200),
-              const Image(image: AssetImage('assets/new-logo.png')),
+              const Image(image: AssetImage('assets/SOU.jpg')),
               Text(
                 'Welcome to NUV',
                 style: TextStyle(fontSize: 50.0),
